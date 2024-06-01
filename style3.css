@@ -1,0 +1,52 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	   background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+
+}
+.h1 {
+	color: rgb(189, 178, 171);
+	margin-top: 5px;
+	border-bottom: 2px solid rgb(189, 178, 171);
+	max-width: 200px;
+	border-right: 2px solid rgb(189, 178, 171);
+	box-shadow: 4px 4px 4px rgb(189, 178, 171);
+
+}
+P {
+	font-size: 50px;
+		color: rgb(189, 178, 171);
+	margin-top: 2rem;
+	font-weight: 700;
+}
+.salam {
+	border: 2px solid rgb(189, 178, 171);
+	margin: 20px;
+
+}
+.text {
+	font-size: 100px;
+	display: inline;
+	color: transparent;
+	background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange,red);
+	background-clip: text;
+	transition: 1.5s linear;
+	background-repeat: no-repeat;
+	background-size: 0%;
+
+}
+.text:hover {
+	background-size: 100%;
+}
+h3 {
+	text-transform: uppercase;
+		color: rgb(189, 178, 171);
+	margin-top: 2rem;
+	font-weight: 700;
+}
